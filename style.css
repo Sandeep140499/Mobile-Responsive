@@ -1,0 +1,248 @@
+
+.tasklist{
+    text-align: center;
+    font-size: 80px;
+    padding: 2%;
+    /* border: 1px solid #000; */
+}
+.task{
+    font-weight: bolder;
+}
+#list{
+    color: gray;
+}
+#ADD{
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-weight: 118px;
+    font-size: 40px;
+    margin-left: 525px;
+    cursor: pointer;
+
+}
+.Box1{
+    /* margin-top: 20px;
+    margin-left: 40px; */
+    margin: 40px 20px;
+    border: 1px solid rgb(211, 20, 20);
+    width: 15%;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 4px 4px gray;
+    display: inline-block;
+    overflow: hidden;
+}
+.Box11{
+    text-align: center;
+    /* margin-top: 40px; */
+}
+.paris1{
+    text-decoration: none;
+    font-size:2.3rem ;
+    color: red;
+    font-weight: bold;
+}
+.task1{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: red;
+}
+
+.checkbox{
+    margin-left: 1%;
+    font-size: 1.7rem;
+}
+.checkbox2{
+    margin-left: 1%;
+    font-size: 1.7rem;
+}
+.Box2{
+    margin-left: 20%;
+    border: 1px solid rgb(211, 20, 20);
+    width: 18%;
+    height: 445px;
+    border-radius: 10%;
+    box-shadow: 4px 4px gray;
+    margin-top: -465px;
+}
+.Box3{
+    margin-left: 40%;
+    border: 1px solid rgb(211, 20, 20);
+    width: 18%;
+    height: 445px;
+    border-radius: 10%;
+    box-shadow: 4px 4px gray;
+    margin-top: -465px;
+}
+.Box4{
+    margin-left: 60%;
+    border: 1px solid rgb(211, 20, 20);
+    width: 18%;
+    height: 445px;
+    border-radius: 10%;
+    box-shadow: 4px 4px gray;
+    margin-top: -465px;
+}
+.Box5{
+    margin-left: 80%;
+    border: 1px solid rgb(211, 20, 20);
+    width: 18%;;
+    height: 445px;
+    border-radius: 10%;
+    box-shadow: 4px 4px gray;
+    margin-top: -465px;
+}
+.paris{
+    text-decoration: none;
+    border: none;
+    font-size: 40px;
+    color: red;
+}
+.tasklist2{
+    font-size: 40px;
+    margin-top: 
+}
+#back{
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    cursor: pointer;
+}
+#page2{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+}
+.Boxes{
+    width: 100%;
+}
+.Box12{
+    border: 1px solid rgb(211, 20, 20);
+    width: 28%;
+    border-radius: 20px;
+    box-shadow: 4px 4px gray;
+    color: red;
+    
+}
+.Box112{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+.task2{
+    text-decoration: line-through;
+}
+.checkbox1{
+    color: black;
+    font-size: 60px;
+}
+.plus2{
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-left: 80%;
+    margin-top: 10%;
+    text-decoration: none;
+}
+.blur{
+    filter: blur(6px);
+}
+.page3{
+    border: 3px solid red;
+    border-radius: 15px;
+    width: 30%;
+    color: red;
+    font-size: 1.7rem;
+    margin-top: 15%;
+}
+.redborder{
+    color: black;
+}
+.text3{
+    height: 25px;
+    width: 65%;
+    color: red;
+    border-radius: 15px;
+}
+.add2{
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    width: 25%;
+    border: none;
+    height: 35px;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+.page4{
+    border: 1px solid red;
+    height: 250px;
+    width: 20%;
+    border-radius: 15px;
+    margin-top: -25%;
+    background-color: white;
+    color: red;
+    padding-top:40px;
+    position: absolute;
+    margin-left: 43%;
+}
+.todo{
+    text-decoration: none;
+}
+.page10{
+    margin-top: -25%;
+}
+/* media query*/
+@media screen and (max-width:1400px){
+    .paris1{
+        font-size:1.7rem ;
+    }
+    .Box1{
+        width: 23%;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .tasklist{
+        text-align: start;
+        font-size: 3rem;
+        padding: 20px;
+        height: 50px;
+    }
+    
+}
+@media screen and (max-width:815px){
+    .Box1{
+        width: 90%;
+        height: 80px;
+        margin-bottom: 0px;
+    }
+    .task1{
+        display: none;
+    }
+    #task{
+        display: none;
+    }
+    .checkbox{
+        display: none;
+    }
+    .hero{
+        display: none;
+    }
+    .Box12{
+        width: 80%;
+    }
+}
+    
+    
+    
+    
+    
